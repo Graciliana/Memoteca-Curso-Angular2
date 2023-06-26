@@ -26,7 +26,10 @@ export class CriarPensamentoComponent implements OnInit {
           Validators.pattern(/(.|\s)*\S(.|\s)*/),
         ]),
       ],
-      autoria: ['',Validators.compose( [Validators.required, Validators.minLength(3)])],
+      autoria: [
+        '',
+        Validators.compose([Validators.required, Validators.minLength(3)]),
+      ],
       modelo: ['modelo1'],
     });
   }
@@ -40,5 +43,12 @@ export class CriarPensamentoComponent implements OnInit {
   }
   cancelar() {
     this.router.navigate(['/listarPensamento']);
+  }
+  habilitarBotao():string {
+    if(this.formulario.valid){
+      return 'botao'
+    }else {
+    return 'botao__desabilitado'
+    }
   }
 }
