@@ -65,6 +65,12 @@
       "conteudo": "Passo informações para o componente filho",
       "autoria": "Componente Pai",
       "modelo": "modelo2"
+    },
+    {
+      "conteudo": "Que a força esteja com você",
+      "autoria": "Mestre Yoda",
+      "modelo": "modelo2",
+      "id": 12
     }
   ]
 }
