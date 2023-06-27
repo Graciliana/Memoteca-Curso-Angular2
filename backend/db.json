@@ -27,8 +27,8 @@
     {
       "id": 5,
       "conteudo": "Angular é um framework de desenvolvimento web criado pela Google que permite a criação de aplicações web escaláveis e dinâmicas. Ele é baseado em TypeScript e é uma das ferramentas mais populares para desenvolvimento front-end. Já o Spring Boot é um framework Java que permite a criação de aplicações web robustas e escaláveis. Ele é baseado em Spring Framework e é uma das ferramentas mais populares para desenvolvimento back-end. Juntos, Angular e Spring Boot permitem a criação de aplicações web completas e escaláveis. O Angular é responsável pela criação da interface do usuário, enquanto o Spring Boot é responsável pelo processamento dos dados e pela comunicação com o banco de dados.",
-      "autoria": "Angular e Java spring",
-      "modelo": "modelo2"
+      "autoria": "Angular",
+      "modelo": "modelo3"
     },
     {
       "id": 6,
